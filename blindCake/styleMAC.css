@@ -1,0 +1,191 @@
+@charset "iso-8859-1";
+/* The content of the posts (body of text) */
+html{scrollbar-3dlight-color:#6a6a6a;
+scrollbar-arrow-color:#fc9b00;
+scrollbar-darkshadow-color:#000000;
+scrollbar-face-color:#1f1f1f;
+scrollbar-highlight-color:#1f1f1f;
+scrollbar-shadow-color:#000000;
+scrollbar-track-color:#a1a1a1;}
+body {background:#2e2e2e url('images/lightgreen.jpg');color:#e7e7e7;margin:5px;padding:1;border:0px none;; font-style:normal; font-variant:normal; font-weight:normal; font-size:13px; font-family:Verdana, helvetica, trebuchet ms, verdana, arial, sans-serif}
+
+table td {font:13px lucida sans, helvetica, trebuchet ms, verdana, arial,sans-serif; padding:0; border-width:0; vertical-align:top;}
+a        {color:#d0a700; text-decoration:none;}
+a:hover  {color:#FFECA2; text-decoration:underline}
+ul       {margin:2px; padding:2px; list-style:decimal inside; text-align:left;}
+ul#block {border-left:1px none #996600; border-right:1px none #000000; border-top:1px none #996600; border-bottom:1px none #000000; background:url('images/darkgreen.jpg'); padding-left:3px; padding-right:3px; padding-top:0px; padding-bottom:1px}
+li       {margin-left:2; color:#0083D7; list-style-type:square; list-style-position:inside}
+th       {background:#191919 url('images/cellpic_nav.gif'); color:#FFFFFF; padding:1px; vertical-align:middle; font-family:Verdana, Arial, Helvetica, sans-serif}
+th a         {color:#fff;text-decoration:none;}
+th a:hover   {color:#fff;text-decoration:underline;}
+th a:visited {color:#fff;text-decoration:none;}
+abbr, acronym, .help {border-bottom:1px dashed black;cursor:help;}
+
+#header {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; width: 99.5%; background:#272727 url('images/darkgreen.jpg');}
+#nav    {border-left:1px solid #707070; border-right:1px solid #000000; border-top:1px solid #707070; border-bottom:1px solid #000000; width: 99.5%; background:#191919 url('images/cellpic_nav.gif'); padding: 0px; font-family:trebuchet ms, arial, verdana;font-size:0.9em; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:8px}
+
+#leftcolumn  {border:1px solid #272727; background:#272727 url('images/darkgreen.jpg'); width:170px}
+#rightcolumn {background:#2E2E2E url('images/darkgreen.jpg'); width:170px}
+#centercolumn {margin-left:10px; margin-right:10px; padding-left:5px; padding-right:5px;}
+div#content  {text-align: left; font-size:95%;}
+#nav a       {color: #d0a700;text-decoration:none;}
+#nav a:hover {color: #FFECA2;text-decoration:underline}
+
+td#mainmenu a {display: block; margin: 0; padding: 1px;}
+td#mainmenu a:hover {margin-right:3px; background:#636363; text-decoration: none; padding-right:2px;color:#d0a700;}
+td#mainmenu a.menuTop {padding-left: 3px;}
+td#mainmenu a.menuMain {padding-left: 3px;}
+td#mainmenu a.menuSub {padding-left: 9px; color:#CE3F00}
+td#mainmenu a:hover.menuSub {padding-left: 9px; color:#CE3F00}
+
+td#usermenu a {display: block; margin: 0; padding: 1px;}
+td#usermenu a:hover {margin-right:3px; background:#636363; text-decoration: none; padding-right:2px;color:#d0a700;}
+td#usermenu a.menuTop {padding-left: 3px;}
+td#mainmenu a.menuMain {padding-left: 3px;}
+
+td#centerCcolumn {padding: 0px 3px 1px 3px; border:0px;}
+td#centerCcolumn legend.blockTitle {padding: 10px; color: #639ACE; font-weight: bold; margin-top: 0px; margin-right: 0px;  margin-left: 0px;}
+td#centerCcolumn div.blockContent {padding: 10px; margin-right: 0px;  margin-left: 0px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerLcolumn {width: 50%; padding: 0px 3px 0px 0px; border:0px;}
+td#centerLcolumn legend.blockTitle {padding: 3px; color: #639ACE; font-weight: bold; margin-top: 0px;}
+td#centerLcolumn div.blockContent {padding: 3px; margin-left: 3px; margin-right: 2px; margin-bottom: 2px; line-height: 120%;}
+
+td#centerRcolumn {width: 50%; padding: 0px 3px 0px 0px; border:0px;}
+td#centerRcolumn legend.blockTitle {padding: 3px; color: #639ACE; font-weight: bold; margin-top: 0px;}
+td#centerRcolumn div.blockContent {padding: 3px; margin-left: 2px; margin-right: 3px; margin-bottom: 2px; line-height: 120%;}
+
+div.spacer         {clear: both;}
+div.row span.left  {float: left;	text-align: left; font-weight: bold; color: #fff; margin-left:33px; width: 50%;}
+div.row span.right {float: right; text-align: right; font-weight: bold;	padding-right:20px; color: #fff; width: 30%;}
+
+/* LeftBar Title Blocks */
+.leftTitle1, .leftTitle2, .leftTitle3, .leftTitle4
+		{border-left:1px solid #707070; border-right:1px solid #000000; border-top:1px solid #707070; border-bottom:1px solid #000000; background:#191919 url('images/cellpic_nav.gif'); font-family: Verdana, trebuchet ms, trebuchet, arial, lucilda;font-weight:normal; font-size:90%; 
+		padding-left:2px;vertical-align:middle; font-weight:bold}
+
+
+/* LeftBar Content Blocks */
+.leftContent1, .leftContent2, .leftContent3, .leftContent4
+		{border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#272727 url('images/darkgreen.jpg'); font-family: Verdana, trebuchet ms, trebuchet, arial, lucilda; font-size: 95%; margin-top: 0px; margin-left: 0px;	
+		padding-top: 5px; padding-left: 5px; margin-bottom:3px; list-style-type:none}
+
+.leftContent1           {}
+.leftContent1 a:link    {color:#d0a700; text-decoration:none;}
+.leftContent1 a:hover   {color:#767676; text-decoration:underline;}
+.leftContent1 a:visited {color:#d0a700;}
+
+.leftContent2 {}
+.leftContent2 a:link    {color:#d0a700; text-decoration:none;}
+.leftContent2 a:hover   {color:#767676; text-decoration:underline;}
+.leftContent2 a:visited {color:#d0a700;}
+
+.leftContent3 {}
+.leftContent3 a:link    {color:#d0a700; text-decoration:none;}
+.leftContent3 a:hover   {color:#767676; text-decoration:underline;}
+.leftContent3 a:visited {color:#d0a700;}
+
+.leftContent4 {}
+.leftContent4 a:link    {color:#d0a700; text-decoration:none;}
+.leftContent4 a:hover   {color:#767676; text-decoration:underline;}
+.leftContent4 a:visited {color:#d0a700;}
+
+/* Rightbar Title Blocks */
+.rightTitle1, .rightTitle2, .rightTitle3 {border-left:1px solid #707070; border-right:1px solid #000000; border-top:1px solid #707070; border-bottom:1px solid #000000; background:#191919 url('images/cellpic_nav.gif'); margin-left:0px; margin-right:0px; padding-left:2px;
+		color:#fff; font-family: Verdana, trebuchet ms, trebuchet, arial, lucilda;vertical-align:middle;font-weight:bold;font-size:90%}
+		
+
+
+/* Rightbar Content Blocks */
+.rightContent1, .rightContent2, .rightContent3 {margin-left:0px; margin-right:0px; margin-bottom:2px; padding-left:5px; padding-right:5px; padding-bottom:3px;
+		padding-top:5px; font-family:Verdana, arial, helvetica, sans-serif; font-size:95%; line-height:110%; color:#999;
+		background-color:#fff; max-width:200px;}
+				
+.rightContent1 {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#272727 url('images/darkgreen.jpg'); }
+.rightContent1 a:link    { color:#d0a700; text-decoration:none;}
+.rightContent1 a:visited {color:#767676; text-decoration:none;}
+.rightContent1 a:hover   {color:#d0a700; text-decoration:underline;}
+
+.rightContent2 {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#272727 url('images/darkgreen.jpg'); }
+.rightContent2 a:link    {color:#d0a700; text-decoration:none;}
+.rightContent2 a:visited {color:#767676; text-decoration:none;}
+.rightContent2 a:hover   {color:#d0a700; text-decoration:underline;}
+
+.rightContent3 {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#272727 url('images/darkgreen.jpg'); }
+.rightContent3 a:link    {color:#d0a700; text-decoration:none;}
+.rightContent3 a:visited {color:#767676; text-decoration:none;}
+.rightContent3 a:hover   {color:#d0a700; text-decoration:underline;}
+
+
+.item          {border:1px solid; border-color:#996600 #000000 #000000 #996600; font-size:1em;}
+.itemHead      {border-left:1px solid #707070; border-right:1px solid #000000; border-top:1px solid #707070; border-bottom:1px solid #000000; background:#191919 url('images/cellpic_nav.gif'); padding:3px; color:#FFFFFF; background-color:#191919}
+.itemInfo      {text-align: right; padding: 3px; background-color: #191919;border:1px solid; border-color:#996600 #000000 #000000 #996600;}
+.itemTitle a   {font-size: 55%; font-weight: bold; font-variant: small-caps; color: #ffffff; background-color: transparent;}
+.itemPoster    {font-size: 40%; font-style:italic;}
+.itemPostDate  {font-size: 40%; font-style:italic;}
+.itemStats     {font-size: 40%; font-style:italic;}
+.itemBody      {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:url('images/darkgreen.jpg'); padding-left: 5px;}
+.itemText      {margin-top: 5px; margin-bottom: 5px; line-height: 1.5em;}
+:first-letter.itemText {font-size: 60%; font-weight: bold;}
+.itemFoot      {text-align: right; padding: 3px; background-color: #191919}
+.itemAdminLink {font-size: 40%;}
+.itemPermaLink {font-size: 40%; font-style:italic;}
+
+.comTitle {font-weight: bold; margin-bottom: 2px;}
+.comText {padding: 2px;}
+.comUserStat {font-size: 10px; color: #E7E7E7; font-weight:bold; border:1px solid #000000; background:#000000 url('images/darkgreen.jpg'); margin: 2px; padding: 2px}
+.comUserStatCaption {font-weight: normal;}
+.comUserStatus {border-style:solid; border-width:0px; margin-left: 2px; margin-top: 10px; color: #FF5A21; font-weight:bold; font-size: 10px; padding:2px; }
+.comUserRank {margin: 2px; text-align:left}
+.comUserRankText {font-size: 12px;font-weight:bold; margin: 2px; padding: 2px; text-align:center}
+.comUserRankImg {border: 0px none; margin: 0px}
+.comUserName {}
+.comUserImg {margin: 2px;}
+.comDate {font-weight: normal; font-style: italic; font-size: smaller}
+.comDateCaption {font-weight: bold; font-style: normal;}
+
+.outer     {font:13px Verdana, helvetica, trebuchet ms, verdana, arial,sans-serif; border:1px solid; border-color:#707070 #000000 #000000 #707070;}
+.head      {font:13px Verdana, helvetica, trebuchet ms, verdana, arial,sans-serif; background:#191919; font-weight:bold; padding:5px; text-indent:0px;
+border:1px solid; border-color:#707070 #000000 #000000 #707070}
+.even      {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#272727 url('images/darkgreen.jpg'); padding:5px; font-style:normal; font-variant:normal; font-weight:normal; font-size:13px; font-family:Verdana, helvetica, trebuchet ms, verdana, arial, sans-serif}
+.odd       {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#303030 url('images/middlegreen.jpg'); padding:5px; font-style:normal; font-variant:normal; font-weight:normal; font-size:13px; font-family:Verdana, helvetica, trebuchet ms, verdana, arial, sans-serif}
+.foot      {font:13px Verdana, helvetica, trebuchet ms, verdana, arial,sans-serif; background:#272727; padding:5px; font-weight:bold; padding:5px;}
+tr.even td {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#272727 url('images/darkgreen.jpg'); padding:5px; font-style:normal; font-variant:normal; font-weight:normal; font-size:13px; font-family:Verdana, helvetica, trebuchet ms, verdana, arial, sans-serif}
+tr.odd td  {border-left:1px solid #996600; border-right:1px solid #000000; border-top:1px solid #996600; border-bottom:1px solid #000000; background:#303030 url('images/middlegreen.jpg'); padding:5px; font-style:normal; font-variant:normal; font-weight:normal; font-size:13px; font-family:Verdana, helvetica, trebuchet ms, verdana, arial, sans-serif}
+
+.head td  {border-left:1px solid #707070; border-right:1px solid #000000; border-top:1px solid #707070; border-bottom:1px solid #000000; background:#191919 url('images/cellpic1.gif'); font-weight:bold; padding:5px; text-indent:4px;
+}
+.head a:link  {color:#d0a700;text-decoration:none;}
+.head a:hover {color:#FFECA2;text-decoration:underline}
+
+div.errorMsg {text-align:center; border-top:1px solid #DDDDFF; border-left:1px solid #DDDDFF; 
+		border-right:1px solid #AAAAAA; border-bottom:1px solid #AAAAAA; font-weight:bold; padding:10px; color:#FF5A21; background-image:url('images/darkgreen.jpg')}
+div.confirmMsg {text-align:center; border-top:1px solid #DDDDFF; border-left:1px solid #DDDDFF; 
+		border-right:1px solid #AAAAAA; border-bottom:1px solid #AAAAAA; font-weight:bold; padding:10px; color:#00CC00; background-image:url('images/darkgreen.jpg')}
+div.resultMsg {text-align:center; border-top:1px solid #DDDDFF; border-left:1px solid #DDDDFF; 
+		border-right:1px solid #AAAAAA; border-bottom:1px solid #AAAAAA; font-weight:bold; padding:10px; color:#CCCCCC; background-image:url('images/darkgreen.jpg')}
+
+div.xoopsCode  {background-position: 0% 0%; border:1px inset #996600; font-family:"Courier New",Courier,monospace; padding-left:2px; padding-right:2px; padding-top:0px; padding-bottom:2px; font-size:8pt; background-image:url('images/middlegreen.jpg'); background-repeat:repeat; background-attachment:scroll}
+div.xoopsQuote {background-position: 0% 0%; border:1px inset #996600; font-family:"Courier New",Courier,monospace; padding-left:2; padding-right:2; padding-top:0px; padding-bottom:2; font-size:8pt; background-image:url('images/middlegreen.jpg'); background-repeat:repeat; background-attachment:scroll}
+
+
+/* Specify the space around images */
+.imgtopic, .imgicon{margin-left:0}
+.imgspace{margin-left:1px;margin-right:2px}
+.imgfolder{margin:1px;margin-left:4px;margin-right:4px}
+
+img{margin-left:1px;margin-right:2px;border:0px none; }
+
+/*forms elements*/
+form{display:inline}
+input.formButton {font:11px Verdana, Verdana,Arial,Helvetica,sans-serif;color:#d0a700; border:1px solid;border-color: #996600 #000000 #000000 #996600; background:#663300;}
+.submit {font:11px Verdana, Verdana,Arial,Helvetica,sans-serif;color:#d0a700; border:1px solid;border-color: #996600 #000000 #000000 #996600; background:#663300;}
+textarea.formBox {font:11px "Verdana", Verdana,Arial,Helvetica,sans-serif;color:#e7e7e7; border:1px solid;border-color: #000000 #996600 #996600 #000000; background:#2e2e2e;}
+input.formTextBox {background:#2e2e2e;color:#e7e7e7;border:1px solid;border-color: #000000 #996600 #996600 #000000;}
+select {background:#2e2e2e;color:#e7e7e7;font:11px Verdana,Arial,Helvetica,sans-serif;}
+input{font:11px Verdana, Verdana,Arial,Helvetica,sans-serif;background:#2e2e2e;color:#e7e7e7;border:1px solid;border-color: #000000 #996600 #996600 #000000;}
+textarea {font:11px Verdana, Verdana,Arial,Helvetica,sans-serif;color:#e7e7e7; border:1px solid;border-color: #000000 #996600 #996600 #000000; background:#2e2e2e;}
+
+table    {margin:0; padding:0; voice-family: "\"}\""; /* some browsers have a parsing bug */
+                         /* and will ignore the following rules */
+  voice-family: inherit;width:99.5%;}
